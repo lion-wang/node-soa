@@ -1,0 +1,2 @@
+{"ts":1388043822923,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1388043838776,"patch":[[{"diffs":[[1,"<% include header.html %>\n<h1>Welcome <%= user.username %>, 欢迎登陆！！</h1>\n<a claa=\"btn\" href=\"/logout\">退出</a>\n<% include footer.html %>"]],"start1":0,"start2":0,"length1":0,"length2":133}]],"length":133,"saved":false}

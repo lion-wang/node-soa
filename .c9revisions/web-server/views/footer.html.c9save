@@ -1,0 +1,4 @@
+{"ts":1388042880355,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1388042897734,"patch":[[{"diffs":[[1,"<script src=\"/javascripts/jquery-1.9.1.min.js\"></script>\n<script src=\"/javascripts/bootstrap.min.js\"></script>\n</body>\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":126}]],"length":126,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1388043967569,"patch":[[{"diffs":[[0," src=\"/j"],[-1,"avascript"],[0,"s/jquery"]],"start1":7,"start2":7,"length1":25,"length2":16},{"diffs":[[0,"=\"/j"],[-1,"avascript"],[0,"s/bo"]],"start1":59,"start2":59,"length1":17,"length2":8}]],"length":108,"saved":false}
+{"ts":1388043977190,"patch":[[{"diffs":[[0,"y-1."],[-1,"9.1"],[1,"10.2"],[0,".min"]],"start1":22,"start2":22,"length1":11,"length2":12}]],"length":109,"saved":false}

@@ -7,7 +7,8 @@ var hns={
                 type:nodesType.START,
                 nextNode:first,
                 inParams:[],
-                outParams:[]
+                outParams:[],
+                status:nodesStatus.COMPLETED
             },
             first:{
                 type:'',
@@ -15,7 +16,8 @@ var hns={
                 nextNode:[second1,second2],
                 preNode:start,
                 inParams:[],
-                outParams:[]
+                outParams:[],
+                status:nodesStatus.RUNNING
             }
             second1:{
                 type:'',
@@ -23,7 +25,8 @@ var hns={
                 nextNode:end,
                 preNode:first,
                 inParams:[],
-                outParams:[]
+                outParams:[],
+                status:nodesStatus.WAITING
             },
             second2:{
                 type:'',
@@ -31,11 +34,13 @@ var hns={
                 nextNode:end,
                 preNode:first,
                 inParams:[],
-                outParams:[]
+                outParams:[],
+                status:nodesStatus.WAITING
             },
             end:{
-                type:nodesType.END
+                type:nodesType.END,
+                status:nodesStatus.WAITING
             }
     },
     params:{}
-}
+};
