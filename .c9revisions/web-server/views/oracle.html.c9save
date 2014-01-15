@@ -1,0 +1,12 @@
+{"ts":1388064367015,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1388064408328,"patch":[[{"diffs":[[1,"<% include header.html %>\n<textarea></textarea>\n<% include footer.html %>"]],"start1":0,"start2":0,"length1":0,"length2":73}]],"length":73,"saved":false}
+{"ts":1388064466693,"patch":[[{"diffs":[[0,"xtarea>\n"],[1,"<script src=\"/js/nsoa-oracle.js\"></script>\n"],[0,"<% inclu"]],"start1":40,"start2":40,"length1":16,"length2":59}]],"length":116,"saved":false}
+{"ts":1388064527735,"patch":[[{"diffs":[[0,"xtarea>\n"],[1,"<button>查询</button>\n"],[0,"<script "]],"start1":40,"start2":40,"length1":16,"length2":36}]],"length":136,"saved":false}
+{"ts":1388064608364,"patch":[[{"diffs":[[0,"\n<button"],[1," class=\"oracle-query\""],[0,">查询</but"]],"start1":47,"start2":47,"length1":16,"length2":37}]],"length":157,"saved":false}
+{"ts":1388064618834,"patch":[[{"diffs":[[0,"ton "],[-1,"class"],[1,"id"],[0,"=\"or"]],"start1":52,"start2":52,"length1":13,"length2":10}]],"length":154,"saved":false}
+{"ts":1388064863456,"patch":[[{"diffs":[[0,"textarea"],[1," id=\"sqlStr\""],[0,"></texta"]],"start1":27,"start2":27,"length1":16,"length2":28}]],"length":166,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1388066183424,"patch":[[{"diffs":[[0,"button>\n"],[1,"<% include footer.html %>\n"],[0,"<script "]],"start1":90,"start2":90,"length1":16,"length2":42},{"diffs":[[0,"ipt>"],[-1,"\n<% include footer.html %>"]],"start1":162,"start2":162,"length1":30,"length2":4}]],"length":166,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1388107742736,"patch":[[{"diffs":[[0,"button>\n"],[1,"<div id=\"#resutl\"></div>\n"],[0,"<% inclu"]],"start1":90,"start2":90,"length1":16,"length2":41}]],"length":191,"saved":false}
+{"ts":1388107897490,"patch":[[{"diffs":[[0,"resu"],[-1,"t"],[0,"l"],[1,"t"],[0,"\"></"]],"start1":108,"start2":108,"length1":10,"length2":10}]],"length":191,"saved":false}
+{"ts":1388107939383,"patch":[[{"diffs":[[0,"id=\""],[-1,"#"],[0,"resu"]],"start1":103,"start2":103,"length1":9,"length2":8}]],"length":190,"saved":false}
+{"ts":1388122724816,"patch":[[{"diffs":[[0,"\"sqlStr\""],[1," cols=\"100\" rows=\"5\""],[0,"></texta"]],"start1":39,"start2":39,"length1":16,"length2":36}]],"length":210,"saved":false}

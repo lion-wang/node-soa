@@ -1,11 +1,7 @@
-
-/**
- * Module dependencies.
- */
-
 var express = require('express');
 var routes = require('./routes');
-var user = require('./routes/user');
+var oracle =require('./routes/oracle');
+//var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var ejs = require('ejs');
@@ -19,18 +15,15 @@ interval: 120000
 var app = express();
 
 // all environments
-app.set('port', process.env.PORT || 8707);
+//app.set('port', process.env.PORT || 8707);
+app.set('port',8707);
 app.set('views', path.join(__dirname, 'views'));
 //app.set('view engine', 'ejs');
 app.engine('.html', ejs.__express);
 app.set('view engine', 'html');
-//app.use(express.favicon());
 //app.use(express.logger('dev'));
-//app.use(express.json());
-//app.use(express.urlencoded());
-//app.use(express.methodOverride());
-//app.use(app.router);
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.json());
+app.use(express.urlencoded());
 
 app.use(express.favicon());
 app.use(express.logger('dev'));
@@ -52,7 +45,7 @@ app.use(function(req, res, next) {
     var err = req.session.error;
     delete req.session.error;
     res.locals.message = '';
-    if (err) res.locals.message = '<div class="alert alert-error">' + err + '</div>';
+    if (err) res.locals.message = '<div class="alert alert-danger">' + err + '</div>';
     next();
 });
 
@@ -82,6 +75,7 @@ function notAuthentication(req, res, next) {
 }
 
 app.get('/', routes.index);
+
 //app.get('/users', user.list);
 
 app.all('/login', notAuthentication);
@@ -91,6 +85,10 @@ app.get('/logout', authentication);
 app.get('/logout', routes.logout);
 app.get('/home', authentication);
 app.get('/home', routes.home);
+//for oracle
+app.get('/oracle',authentication);
+app.get('/oracle',oracle.index);
+app.post('/oracle/query',oracle.query);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

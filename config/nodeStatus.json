@@ -1,0 +1,6 @@
+var nodeStatus={
+      COMPLETED:4,
+      RUNNING:2,
+      WAITING:1,
+      INIT:3
+};

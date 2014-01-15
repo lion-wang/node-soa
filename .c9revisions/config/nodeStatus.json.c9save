@@ -1,0 +1,4 @@
+{"ts":1388028503531,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1389768775069,"patch":[[{"diffs":[[1,"var nodeStatus={\n        \n}"]],"start1":0,"start2":0,"length1":0,"length2":27}]],"length":27,"saved":false}
+{"ts":1389768819040,"patch":[[{"diffs":[[0,"    "],[-1,"  "],[1,"COMPLETED:4,\n      RUNNING:2,"],[0,"\n}"],[1,";"]],"start1":19,"start2":19,"length1":8,"length2":36}]],"length":55,"saved":false}
+{"ts":1389768839520,"patch":[[{"diffs":[[0,"NING:2,\n"],[1,"      WAITING:1,\n      INIT:3\n"],[0,"};"]],"start1":45,"start2":45,"length1":10,"length2":40}]],"length":85,"saved":false}

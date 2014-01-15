@@ -1,0 +1,4 @@
+var nodeTypes={
+    START:'start',
+    DBADAPTER:'dbAdapter'
+};
