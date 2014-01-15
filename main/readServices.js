@@ -19,7 +19,11 @@ for(var i in files){
 fs.readFile(servicePath+'index.json',{encoding:'utf8'},function(err,data){
     if(err){ console.log(err); throw err;}
     
-    eval(data);
-    console.log(hns);
-    
+    eval('var '+serviceName+'='+data);
+    console.log(eval(serviceName));
 });
+
+
+exports.services= function() {    
+    console.log('My name is Lemmy Kilmister');
+};

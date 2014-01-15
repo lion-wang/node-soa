@@ -14,3 +14,4 @@
 {"ts":1389771533772,"patch":[[{"diffs":[[0,"     status:node"],[-1,"s"],[0,"Status.WAITING\n "]],"start1":1061,"start2":1061,"length1":33,"length2":32}]],"length":1242,"saved":false}
 {"ts":1389771535661,"patch":[[{"diffs":[[0,"tus:node"],[-1,"s"],[0,"Status.W"]],"start1":1181,"start2":1181,"length1":17,"length2":16}]],"length":1241,"saved":false}
 {"ts":1389771555271,"patch":[[{"diffs":[[0,"ype:node"],[-1,"s"],[0,"Types.EN"]],"start1":1142,"start2":1142,"length1":17,"length2":16}]],"length":1240,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1389775973578,"patch":[[{"diffs":[[-1,"var hns="],[0,"{\n  "]],"start1":0,"start2":0,"length1":12,"length2":4}]],"length":1232,"saved":false}
