@@ -3,7 +3,8 @@ var fs = require('fs'),
     baseService=basePath+'/services/',
     configPath=basePath+'/config/',
     serviceName='db2db',
-    servicePath=baseService+serviceName+'/';
+    servicePath=baseService+serviceName+'/',
+    _services={};
 
 console.log(configPath);
 
@@ -18,12 +19,11 @@ for(var i in files){
 
 fs.readFile(servicePath+'index.json',{encoding:'utf8'},function(err,data){
     if(err){ console.log(err); throw err;}
-    
-    eval('var '+serviceName+'='+data);
-    console.log(eval(serviceName));
+    eval('var sName='+data);
+    _services[sName.name]=sName;
 });
 
 
 exports.services= function() {    
-    console.log('My name is Lemmy Kilmister');
+    return _services;
 };
